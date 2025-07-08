@@ -9,7 +9,7 @@ library(tidyverse)
 # Data
 
 ## California housing prices
-df <- readr::read_csv(file = "D:/Udemy/1004_R_data_science_tidymodels_part_1_introduction/course_draft_material/data/Section 05/housing.csv",
+df <- readr::read_csv(file = "./data/housing.csv",
                       col_names = T)
 
 
